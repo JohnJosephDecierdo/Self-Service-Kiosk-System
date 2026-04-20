@@ -43,5 +43,44 @@
     <Compile Update="FORMS\Registerform.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="KioskSystem\FORMS\Analyticsform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="KioskSystem\FORMS\CashierForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="KioskSystem\FORMS\CookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="KioskSystem\FORMS\CustomerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="KioskSystem\FORMS\Editorderform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="KioskSystem\FORMS\EditUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="KioskSystem\FORMS\HomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="KioskSystem\FORMS\KdsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="KioskSystem\FORMS\LogInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="KioskSystem\FORMS\ManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="KioskSystem\FORMS\Pinpromptform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="KioskSystem\FORMS\Receiptform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="KioskSystem\FORMS\Registerform.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
