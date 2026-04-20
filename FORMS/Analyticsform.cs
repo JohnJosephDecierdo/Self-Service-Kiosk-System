@@ -12,33 +12,28 @@ namespace OOP_FINAL_PROJECT
         private AnalyticsRepository _analytics = new AnalyticsRepository();
         private System.Windows.Forms.Timer _refreshTimer;
 
-        // ── Active date range ─────────────────────────────────
         private DateTime _rangeFrom;
         private DateTime _rangeTo;
 
         public AnalyticsForm()
         {
             InitializeComponent();
-            // Default: current month
             ApplyMonthFilter(DateTime.Today.Year, DateTime.Today.Month);
             StartAutoRefresh();
         }
 
-        // ── Button handlers ───────────────────────────────────
         private void btnRefresh_Click(object sender, EventArgs e) => LoadAnalytics();
         private void btnClose_Click(object sender, EventArgs e) => this.Close();
 
-        // ── Filter mode toggle ────────────────────────────────
         private void cmbFilterMode_SelectedIndexChanged(object sender, EventArgs e)
         {
-            bool isMonthly = cmbFilterMode.SelectedIndex == 0;
-            cmbMonth.Visible = isMonthly;
-            cmbYear.Visible = true; // always visible
-
-            if (isMonthly)
-                ApplyMonthFilter((int)cmbYear.SelectedItem, cmbMonth.SelectedIndex + 1);
-            else
-                ApplyYearFilter((int)cmbYear.SelectedItem);
+            cmbFilterMode_Visibility();
+            switch (cmbFilterMode.SelectedIndex)
+            {
+                case 0: ApplyMonthFilter((int)cmbYear.SelectedItem, cmbMonth.SelectedIndex + 1); break;
+                case 1: ApplyYearFilter((int)cmbYear.SelectedItem); break;
+                case 2: UpdateFilterLabel("Select a date range and click Apply"); break;
+            }
         }
 
         private void cmbMonth_SelectedIndexChanged(object sender, EventArgs e)
@@ -55,7 +50,35 @@ namespace OOP_FINAL_PROJECT
                 ApplyYearFilter((int)cmbYear.SelectedItem);
         }
 
-        // ── Range helpers ─────────────────────────────────────
+        private void btnApplyRange_Click(object sender, EventArgs e)
+        {
+            if (dtpFrom.Value.Date > dtpTo.Value.Date)
+            {
+                MessageBox.Show("'From' date cannot be after 'To' date.", "Invalid Range",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            _rangeFrom = dtpFrom.Value.Date;
+            _rangeTo = dtpTo.Value.Date.AddDays(1);
+            UpdateFilterLabel($"Showing: {_rangeFrom:MMM dd} – {dtpTo.Value:MMM dd, yyyy}");
+            LoadAnalytics();
+        }
+
+        private void cmbFilterMode_Visibility()
+        {
+            bool isCustom = cmbFilterMode.SelectedIndex == 2;
+            bool isMonthly = cmbFilterMode.SelectedIndex == 0;
+            cmbMonth.Visible = isMonthly;
+            cmbYear.Visible = !isCustom;
+            lblFilterYear.Visible = !isCustom;
+            lblFilterMonth.Visible = isMonthly;
+            dtpFrom.Visible = isCustom;
+            dtpTo.Visible = isCustom;
+            lblFrom.Visible = isCustom;
+            lblTo.Visible = isCustom;
+            btnApplyRange.Visible = isCustom;
+        }
+
         private void ApplyMonthFilter(int year, int month)
         {
             _rangeFrom = new DateTime(year, month, 1);
@@ -72,12 +95,8 @@ namespace OOP_FINAL_PROJECT
             LoadAnalytics();
         }
 
-        private void UpdateFilterLabel(string text)
-        {
-            lblFilterRange.Text = text;
-        }
+        private void UpdateFilterLabel(string text) => lblFilterRange.Text = text;
 
-        // ── Load all data ─────────────────────────────────────
         private void LoadAnalytics()
         {
             try
@@ -99,22 +118,17 @@ namespace OOP_FINAL_PROJECT
 
         private void LoadSummaryCards()
         {
-            // Fixed "Today" card always shows today regardless of filter
             double today = _analytics.GetTotalSalesToday();
             lblTodaySales.Text = $"₱{today:N2}";
             int ordersToday = _analytics.GetTotalOrdersToday();
             lblTodayOrders.Text = ordersToday.ToString();
 
-            // Filtered range cards
             double rangeSales = _analytics.GetTotalSalesInRange(_rangeFrom, _rangeTo);
             lblRangeSales.Text = $"₱{rangeSales:N2}";
-
             int rangeOrders = _analytics.GetTotalOrdersInRange(_rangeFrom, _rangeTo);
             lblRangeOrders.Text = rangeOrders.ToString();
-
             double avg = _analytics.GetAverageOrderValueInRange(_rangeFrom, _rangeTo);
             lblAvgOrder.Text = $"₱{avg:N2}";
-
             int customers = _analytics.GetTotalCustomersInRange(_rangeFrom, _rangeTo);
             lblCustomers.Text = customers.ToString();
         }
@@ -164,11 +178,11 @@ namespace OOP_FINAL_PROJECT
             dgvRecent.DataSource = _analytics.GetRecentOrdersInRange(_rangeFrom, _rangeTo, 10);
         }
 
-        // ── Status Bar Chart Paint ────────────────────────────
         private void pnlStatusChart_Paint(object sender, PaintEventArgs e)
         {
             var g = e.Graphics;
             g.SmoothingMode = SmoothingMode.AntiAlias;
+            g.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             g.Clear(Color.White);
 
             var dt = pnlStatusChart.Tag as DataTable;
@@ -176,15 +190,13 @@ namespace OOP_FINAL_PROJECT
             {
                 using (var f = new Font("Segoe UI", 9))
                 using (var b = new SolidBrush(Color.FromArgb(189, 189, 189)))
-                    g.DrawString("No data yet", f, b, 10, 40);
+                    g.DrawString("No data yet", f, b, 16, 80);
                 return;
             }
 
             Color[] colors = {
-                Color.FromArgb(33, 150, 243),
-                Color.FromArgb(255, 111, 0),
-                Color.FromArgb(67, 160, 71),
-                Color.FromArgb(229, 57, 53),
+                Color.FromArgb(33, 150, 243), Color.FromArgb(255, 111, 0),
+                Color.FromArgb(67, 160, 71),  Color.FromArgb(229, 57, 53),
                 Color.FromArgb(156, 39, 176)
             };
 
@@ -194,41 +206,56 @@ namespace OOP_FINAL_PROJECT
                     maxCount = Convert.ToInt32(r["orderCount"]);
             if (maxCount == 0) maxCount = 1;
 
-            int panelW = pnlStatusChart.Width - 20;
-            int panelH = pnlStatusChart.Height - 40;
-            int barW = Math.Max(20, (panelW / dt.Rows.Count) - 10);
-            int x = 10;
+            int padL = 16, padR = 16, padTop = 28, padBot = 22;
+            int chartW = pnlStatusChart.Width - padL - padR;
+            int chartH = pnlStatusChart.Height - padTop - padBot;
+            int n = dt.Rows.Count;
+            int gap = Math.Max(8, chartW / (n * 4));
+            int barW = Math.Max(24, (chartW - gap * (n + 1)) / n);
 
-            for (int i = 0; i < dt.Rows.Count; i++)
+            using (var pen = new System.Drawing.Pen(Color.FromArgb(220, 220, 220), 1))
+                g.DrawLine(pen, padL, padTop + chartH, padL + chartW, padTop + chartH);
+
+            int x = padL + gap;
+            for (int i = 0; i < n; i++)
             {
                 string status = dt.Rows[i]["status"].ToString();
                 int count = Convert.ToInt32(dt.Rows[i]["orderCount"]);
-                int barH = (int)((double)count / maxCount * panelH);
-                int y = panelH - barH + 10;
+                int barH = Math.Max(4, (int)((double)count / maxCount * chartH));
+                int barY = padTop + chartH - barH;
                 Color c = colors[i % colors.Length];
 
-                using (var br = new SolidBrush(c))
-                    g.FillRectangle(br, x, y, barW, barH);
+                using (var lgb = new LinearGradientBrush(
+                    new System.Drawing.Point(x, barY),
+                    new System.Drawing.Point(x, barY + barH),
+                    Color.FromArgb(255, c.R, c.G, c.B),
+                    Color.FromArgb(180, c.R, c.G, c.B)))
+                    g.FillRectangle(lgb, x, barY, barW, barH);
 
                 using (var tf = new Font("Segoe UI", 8, FontStyle.Bold))
                 using (var tb = new SolidBrush(c))
-                    g.DrawString(count.ToString(), tf, tb, x + barW / 2 - 8, y - 18);
-
-                using (var tf = new Font("Segoe UI", 7))
-                using (var tb = new SolidBrush(Color.FromArgb(117, 117, 117)))
                 {
-                    string lbl = status.Length > 8 ? status.Substring(0, 8) : status;
-                    g.DrawString(lbl, tf, tb, x, panelH + 14);
+                    string lbl = count.ToString();
+                    var sz = g.MeasureString(lbl, tf);
+                    g.DrawString(lbl, tf, tb, x + (barW - sz.Width) / 2, barY - sz.Height - 2);
                 }
-                x += barW + 10;
+
+                using (var tf = new Font("Segoe UI", 7.5f))
+                using (var tb = new SolidBrush(Color.FromArgb(90, 90, 90)))
+                {
+                    string lbl = status.Length > 9 ? status.Substring(0, 9) : status;
+                    var sz = g.MeasureString(lbl, tf);
+                    g.DrawString(lbl, tf, tb, x + (barW - sz.Width) / 2, padTop + chartH + 5);
+                }
+                x += barW + gap;
             }
         }
 
-        // ── Category Revenue Bar Chart ────────────────────────
         private void pnlCategoryChart_Paint(object sender, PaintEventArgs e)
         {
             var g = e.Graphics;
             g.SmoothingMode = SmoothingMode.AntiAlias;
+            g.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             g.Clear(Color.White);
 
             var dt = pnlCategoryChart.Tag as DataTable;
@@ -236,15 +263,13 @@ namespace OOP_FINAL_PROJECT
             {
                 using (var f = new Font("Segoe UI", 9))
                 using (var b = new SolidBrush(Color.FromArgb(189, 189, 189)))
-                    g.DrawString("No data yet", f, b, 10, 40);
+                    g.DrawString("No data yet", f, b, 16, 80);
                 return;
             }
 
             Color[] colors = {
-                Color.FromArgb(255, 111, 0),
-                Color.FromArgb(33, 150, 243),
-                Color.FromArgb(67, 160, 71),
-                Color.FromArgb(156, 39, 176),
+                Color.FromArgb(255, 111, 0),  Color.FromArgb(33, 150, 243),
+                Color.FromArgb(67, 160, 71),  Color.FromArgb(156, 39, 176),
                 Color.FromArgb(229, 57, 53)
             };
 
@@ -254,33 +279,48 @@ namespace OOP_FINAL_PROJECT
                     maxRev = Convert.ToDouble(r["totalRevenue"]);
             if (maxRev == 0) maxRev = 1;
 
-            int panelW = pnlCategoryChart.Width - 20;
-            int panelH = pnlCategoryChart.Height - 40;
-            int barW = Math.Max(20, (panelW / dt.Rows.Count) - 10);
-            int x = 10;
+            int padL = 16, padR = 16, padTop = 28, padBot = 22;
+            int chartW = pnlCategoryChart.Width - padL - padR;
+            int chartH = pnlCategoryChart.Height - padTop - padBot;
+            int n = dt.Rows.Count;
+            int gap = Math.Max(8, chartW / (n * 4));
+            int barW = Math.Max(24, (chartW - gap * (n + 1)) / n);
 
-            for (int i = 0; i < dt.Rows.Count; i++)
+            using (var pen = new System.Drawing.Pen(Color.FromArgb(220, 220, 220), 1))
+                g.DrawLine(pen, padL, padTop + chartH, padL + chartW, padTop + chartH);
+
+            int x = padL + gap;
+            for (int i = 0; i < n; i++)
             {
                 string cat = dt.Rows[i]["category"].ToString();
                 double rev = Convert.ToDouble(dt.Rows[i]["totalRevenue"]);
-                int barH = (int)(rev / maxRev * panelH);
-                int y = panelH - barH + 10;
+                int barH = Math.Max(4, (int)(rev / maxRev * chartH));
+                int barY = padTop + chartH - barH;
                 Color c = colors[i % colors.Length];
 
-                using (var br = new SolidBrush(c))
-                    g.FillRectangle(br, x, y, barW, barH);
+                using (var lgb = new LinearGradientBrush(
+                    new System.Drawing.Point(x, barY),
+                    new System.Drawing.Point(x, barY + barH),
+                    Color.FromArgb(255, c.R, c.G, c.B),
+                    Color.FromArgb(170, c.R, c.G, c.B)))
+                    g.FillRectangle(lgb, x, barY, barW, barH);
 
-                using (var tf = new Font("Segoe UI", 7, FontStyle.Bold))
+                using (var tf = new Font("Segoe UI", 7.5f, FontStyle.Bold))
                 using (var tb = new SolidBrush(c))
-                    g.DrawString($"₱{rev:N0}", tf, tb, x, y - 16);
-
-                using (var tf = new Font("Segoe UI", 7))
-                using (var tb = new SolidBrush(Color.FromArgb(117, 117, 117)))
                 {
-                    string lbl = cat.Length > 8 ? cat.Substring(0, 8) : cat;
-                    g.DrawString(lbl, tf, tb, x, panelH + 14);
+                    string lbl = $"₱{rev:N0}";
+                    var sz = g.MeasureString(lbl, tf);
+                    g.DrawString(lbl, tf, tb, x + (barW - sz.Width) / 2, barY - sz.Height - 2);
                 }
-                x += barW + 10;
+
+                using (var tf = new Font("Segoe UI", 7.5f))
+                using (var tb = new SolidBrush(Color.FromArgb(90, 90, 90)))
+                {
+                    string lbl = cat.Length > 9 ? cat.Substring(0, 9) : cat;
+                    var sz = g.MeasureString(lbl, tf);
+                    g.DrawString(lbl, tf, tb, x + (barW - sz.Width) / 2, padTop + chartH + 5);
+                }
+                x += barW + gap;
             }
         }
 

@@ -24,21 +24,20 @@ namespace OOP_FINAL_PROJECT
             txtCurrentPIN.Text = currentPIN ?? "";
         }
 
-        private void btnLogout_Click(object sender, EventArgs e)
+        protected override void OnFormClosing(FormClosingEventArgs e)
         {
-            var confirm = MessageBox.Show(
-                "Are you sure you want to log out?",
-                "Confirm Logout",
-                MessageBoxButtons.YesNo,
-                MessageBoxIcon.Question);
-            if (confirm == DialogResult.Yes)
-                this.Close();
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                var confirm = MessageBox.Show("Are you sure you want to log out?",
+                    "Confirm Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (confirm != DialogResult.Yes) { e.Cancel = true; return; }
+            }
+            base.OnFormClosing(e);
         }
+        private void btnLogout_Click(object sender, EventArgs e) => this.Close();
+
         private void btnAnalytics_Click(object sender, EventArgs e)
-        {
-            var analyticsForm = new AnalyticsForm();
-            analyticsForm.ShowDialog();
-        }
+            => new AnalyticsForm().Show();
 
         // ── Menu Validation ─────────────────────────────────
         private bool ValidateMenuForm()
@@ -184,7 +183,6 @@ namespace OOP_FINAL_PROJECT
         // ── Reports ──────────────────────────────────────────
         private void btnEditOrder_Click(object sender, EventArgs e)
         {
-            // Use CurrentRow as fallback if SelectedRows is empty
             DataGridViewRow row = null;
             if (dgvReports.SelectedRows.Count > 0)
                 row = dgvReports.SelectedRows[0];
@@ -198,11 +196,12 @@ namespace OOP_FINAL_PROJECT
                 return;
             }
 
+            // Manager is already authenticated — no PIN needed
             int orderID = Convert.ToInt32(row.Cells["orderID"].Value);
             string status = row.Cells["status"].Value?.ToString();
 
             var editForm = new EditOrderForm(orderID, status);
-            if (editForm.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            if (editForm.ShowDialog() == DialogResult.OK)
                 dgvReports.DataSource = _orderRepo.GetAllOrders();
         }
 

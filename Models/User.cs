@@ -65,17 +65,26 @@ namespace OOP_FINAL_PROJECT.Models
     {
         public User Login(string username, string password)
         {
-            string query = "SELECT * FROM Users WHERE username = ? AND [password] = ?";
+            // Fetch user by username only — verify password in code using hash
+            string query = "SELECT * FROM Users WHERE username = ?";
             OleDbParameter[] p =
             {
-                new OleDbParameter("@u", username),
-                new OleDbParameter("@p", password)
+                new OleDbParameter("@u", username)
             };
 
             DataTable dt = DatabaseHelper.ExecuteQuery(query, p);
             if (dt.Rows.Count == 0) return null;
 
             DataRow r = dt.Rows[0];
+            string storedPassword = r["password"].ToString();
+
+            // Support both plain text (old) and hashed (new) passwords
+            bool passwordMatch = PasswordHelper.IsHashed(storedPassword)
+                ? PasswordHelper.Verify(password, storedPassword)  // hashed
+                : storedPassword == password;                        // plain text fallback
+
+            if (!passwordMatch) return null;
+
             return new User
             {
                 UserID = Convert.ToInt32(r["userID"]),
@@ -86,11 +95,14 @@ namespace OOP_FINAL_PROJECT.Models
 
         public bool AddUser(User user)
         {
+            // Always hash the password before storing
+            string hashedPassword = PasswordHelper.Hash(user.Password);
+
             string query = "INSERT INTO Users (username, [password], [role]) VALUES (?, ?, ?)";
             OleDbParameter[] p =
             {
                 new OleDbParameter("@u", user.Username),
-                new OleDbParameter("@p", user.Password),
+                new OleDbParameter("@p", hashedPassword),
                 new OleDbParameter("@r", user.Role)
             };
             return DatabaseHelper.ExecuteNonQuery(query, p) > 0;
@@ -123,19 +135,21 @@ namespace OOP_FINAL_PROJECT.Models
 
             if (newPassword != null)
             {
-                // Update username, password, and role
+                // Hash the new password before storing
+                string hashedPassword = PasswordHelper.Hash(newPassword);
+
                 query = "UPDATE Users SET username = ?, [password] = ?, [role] = ? WHERE userID = ?";
                 p = new OleDbParameter[]
                 {
                     new OleDbParameter("@u",  username),
-                    new OleDbParameter("@p",  newPassword),
+                    new OleDbParameter("@p",  hashedPassword),
                     new OleDbParameter("@r",  role),
                     new OleDbParameter("@id", userID)
                 };
             }
             else
             {
-                // Update username and role only — keep existing password
+                // Keep existing password — don't touch it
                 query = "UPDATE Users SET username = ?, [role] = ? WHERE userID = ?";
                 p = new OleDbParameter[]
                 {

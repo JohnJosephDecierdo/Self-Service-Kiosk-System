@@ -1,0 +1,832 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\analytics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:analytics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\forms\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\forms\\cookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\cookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\forms\\receiptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\receiptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\cashierform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\cashierform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\editorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\editorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\ownerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\ownerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\ownerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\ownerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\forms\\ownerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\ownerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\homeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\homeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\models\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:models\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\forms\\analyticsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\analyticsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\analyticsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\analyticsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\analyticsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\analyticsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\database\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:database\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\editorderform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\editorderform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\forms\\editorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\editorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\managerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\managerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\forms\\managerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\managerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\managerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\managerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\forms\\edituserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\edituserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\cashierform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\cashierform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\receiptform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\receiptform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\receiptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\receiptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\cookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\cookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\forms\\cashierform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\cashierform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\pinpromptform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\pinpromptform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\pinpromptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\pinpromptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\forms\\pinpromptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\pinpromptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\cookform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\cookform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\cookform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\cookform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\customerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\customerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\edituserform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\edituserform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\edituserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\edituserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\models\\menuitem (1).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:models\\menuitem (1).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\kdsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\kdsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\johnjosephdecierdo\\source\\repos\\oop final project\\forms\\kdsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\kdsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\forms\\kdsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\kdsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MenuItem (1).cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\Models\\MenuItem (1).cs",
+              "RelativeDocumentMoniker": "Models\\MenuItem (1).cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\Models\\MenuItem (1).cs",
+              "RelativeToolTip": "Models\\MenuItem (1).cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T12:01:32.056Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OwnerForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\OwnerForm.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\OwnerForm.Designer.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\OwnerForm.Designer.cs",
+              "RelativeToolTip": "FORMS\\OwnerForm.Designer.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T01:57:00.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OwnerForm.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\OwnerForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\OwnerForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\OwnerForm.cs",
+              "RelativeToolTip": "FORMS\\OwnerForm.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T01:56:49.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OwnerForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\OwnerForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\OwnerForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\OwnerForm.cs [Design]",
+              "RelativeToolTip": "FORMS\\OwnerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T01:56:34.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\Models\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "Models\\PasswordHelper.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\Models\\PasswordHelper.cs",
+              "RelativeToolTip": "Models\\PasswordHelper.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T17:47:33.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Analyticsform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Analyticsform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Analyticsform.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Analyticsform.cs [Design]",
+              "RelativeToolTip": "FORMS\\Analyticsform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T17:30:45.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Receiptform.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Receiptform.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\Receiptform.Designer.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Receiptform.Designer.cs",
+              "RelativeToolTip": "FORMS\\Receiptform.Designer.cs",
+              "ViewState": "AgIAACQBAAAAAAAAAAAUwDcBAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T11:08:30.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Receiptform.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Receiptform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Receiptform.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Receiptform.cs",
+              "RelativeToolTip": "FORMS\\Receiptform.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAUwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T11:08:21.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Receiptform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Receiptform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Receiptform.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Receiptform.cs [Design]",
+              "RelativeToolTip": "FORMS\\Receiptform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T11:08:18.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Analytics.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\Analytics.cs",
+              "RelativeDocumentMoniker": "Analytics.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\Analytics.cs",
+              "RelativeToolTip": "Analytics.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAE0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T10:16:47.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Analyticsform.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Analyticsform.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\Analyticsform.Designer.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Analyticsform.Designer.cs",
+              "RelativeToolTip": "FORMS\\Analyticsform.Designer.cs",
+              "ViewState": "AgIAAKMBAAAAAAAAAAAUwMMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T03:27:32.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Analyticsform.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Analyticsform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Analyticsform.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Analyticsform.cs",
+              "RelativeToolTip": "FORMS\\Analyticsform.cs",
+              "ViewState": "AgIAADMBAAAAAAAAAAAUwFMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T03:27:30.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CookForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CookForm.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\CookForm.Designer.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CookForm.Designer.cs",
+              "RelativeToolTip": "FORMS\\CookForm.Designer.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAmwI8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T17:23:05.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CookForm.resx",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CookForm.resx",
+              "RelativeDocumentMoniker": "FORMS\\CookForm.resx",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CookForm.resx",
+              "RelativeToolTip": "FORMS\\CookForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-04-10T17:23:04.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Pinpromptform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Pinpromptform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Pinpromptform.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Pinpromptform.cs [Design]",
+              "RelativeToolTip": "FORMS\\Pinpromptform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T11:06:58.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ManagerForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\ManagerForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\ManagerForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\ManagerForm.cs [Design]",
+              "RelativeToolTip": "FORMS\\ManagerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T08:34:28.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Pinpromptform.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Pinpromptform.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\Pinpromptform.Designer.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Pinpromptform.Designer.cs",
+              "RelativeToolTip": "FORMS\\Pinpromptform.Designer.cs",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAmwAIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T08:32:46.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Pinpromptform.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Pinpromptform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Pinpromptform.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Pinpromptform.cs",
+              "RelativeToolTip": "FORMS\\Pinpromptform.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAmwEkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T08:32:42.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Editorderform.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Editorderform.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\Editorderform.Designer.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Editorderform.Designer.cs",
+              "RelativeToolTip": "FORMS\\Editorderform.Designer.cs",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAUwA8BAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T14:23:07.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Editorderform.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Editorderform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Editorderform.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Editorderform.cs",
+              "RelativeToolTip": "FORMS\\Editorderform.cs",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAgwPkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T14:22:58.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Editorderform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Editorderform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Editorderform.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Editorderform.cs [Design]",
+              "RelativeToolTip": "FORMS\\Editorderform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T14:22:38.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "EditUserForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\EditUserForm.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\EditUserForm.Designer.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\EditUserForm.Designer.cs",
+              "RelativeToolTip": "FORMS\\EditUserForm.Designer.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAAANUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T10:42:28.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "EditUserForm.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\EditUserForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\EditUserForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\EditUserForm.cs",
+              "RelativeToolTip": "FORMS\\EditUserForm.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAAJYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T10:42:18.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditUserForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\EditUserForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\EditUserForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\EditUserForm.cs [Design]",
+              "RelativeToolTip": "FORMS\\EditUserForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T10:42:10.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\HomeForm.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\HomeForm.Designer.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\HomeForm.Designer.cs",
+              "RelativeToolTip": "FORMS\\HomeForm.Designer.cs",
+              "ViewState": "AgIAABIBAAAAAAAAAAAIwCoBAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T07:32:56.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LogInForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\LogInForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\LogInForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\LogInForm.cs [Design]",
+              "RelativeToolTip": "FORMS\\LogInForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T13:12:07.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Registerform.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Registerform.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\Registerform.Designer.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Registerform.Designer.cs",
+              "RelativeToolTip": "FORMS\\Registerform.Designer.cs",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAmwN8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T15:47:37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Registerform.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Registerform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Registerform.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Registerform.cs",
+              "RelativeToolTip": "FORMS\\Registerform.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAYwM8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T15:47:30.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Registerform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Registerform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Registerform.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Registerform.cs [Design]",
+              "RelativeToolTip": "FORMS\\Registerform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T15:47:24.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ManagerForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\ManagerForm.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\ManagerForm.Designer.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\ManagerForm.Designer.cs",
+              "RelativeToolTip": "FORMS\\ManagerForm.Designer.cs",
+              "ViewState": "AgIAAIkCAAAAAAAAAAAUwI8CAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T15:43:17.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CashierForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CashierForm.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\CashierForm.Designer.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CashierForm.Designer.cs",
+              "RelativeToolTip": "FORMS\\CashierForm.Designer.cs",
+              "ViewState": "AgIAAGMBAAAAAAAAAAAwwHMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T15:42:51.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LogInForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\LogInForm.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\LogInForm.Designer.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\LogInForm.Designer.cs",
+              "RelativeToolTip": "FORMS\\LogInForm.Designer.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAmwK4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T15:42:15.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "KdsForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\KdsForm.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\KdsForm.Designer.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\KdsForm.Designer.cs",
+              "RelativeToolTip": "FORMS\\KdsForm.Designer.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAowNEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T08:37:30.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SessionManager.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\SessionManager.cs",
+              "RelativeDocumentMoniker": "SessionManager.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\SessionManager.cs",
+              "RelativeToolTip": "SessionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T12:50:05.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CustomerForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CustomerForm.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\CustomerForm.Designer.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CustomerForm.Designer.cs",
+              "RelativeToolTip": "FORMS\\CustomerForm.Designer.cs",
+              "ViewState": "AgIAACUBAAAAAAAAAAAmwDABAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T12:48:05.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CashierForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CashierForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\CashierForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CashierForm.cs [Design]",
+              "RelativeToolTip": "FORMS\\CashierForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T12:47:53.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "KdsForm.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\KdsForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\KdsForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\KdsForm.cs",
+              "RelativeToolTip": "FORMS\\KdsForm.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAgwNMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T12:46:31.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "KdsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\KdsForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\KdsForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\KdsForm.cs [Design]",
+              "RelativeToolTip": "FORMS\\KdsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T12:46:29.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ManagerForm.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\ManagerForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\ManagerForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\ManagerForm.cs",
+              "RelativeToolTip": "FORMS\\ManagerForm.cs",
+              "ViewState": "AgIAAH8BAAAAAAAAAAAUwIgBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T12:45:37.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CookForm.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CookForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\CookForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CookForm.cs",
+              "RelativeToolTip": "FORMS\\CookForm.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAUwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T12:44:39.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CookForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CookForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\CookForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CookForm.cs [Design]",
+              "RelativeToolTip": "FORMS\\CookForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T12:44:36.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CashierForm.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CashierForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\CashierForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CashierForm.cs",
+              "RelativeToolTip": "FORMS\\CashierForm.cs",
+              "ViewState": "AgIAAPAAAAAAAAAAAAA1wAABAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T12:44:06.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "LogInForm.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\LogInForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\LogInForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\LogInForm.cs",
+              "RelativeToolTip": "FORMS\\LogInForm.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T12:43:19.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerForm.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CustomerForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\CustomerForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CustomerForm.cs",
+              "RelativeToolTip": "FORMS\\CustomerForm.cs",
+              "ViewState": "AgIAABwCAAAAAAAAAAAwwCwCAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T12:42:13.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\Database\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "Database\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\Database\\DatabaseHelper.cs",
+              "RelativeToolTip": "Database\\DatabaseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T12:40:51.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeForm.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\HomeForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\HomeForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\HomeForm.cs",
+              "RelativeToolTip": "FORMS\\HomeForm.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowE0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T12:16:34.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CustomerForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\CustomerForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CustomerForm.cs [Design]",
+              "RelativeToolTip": "FORMS\\CustomerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T12:14:28.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAwwKkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T12:11:06.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAiwL8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T12:10:09.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T12:01:59.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\HomeForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\HomeForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\HomeForm.cs [Design]",
+              "RelativeToolTip": "FORMS\\HomeForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T11:58:54.591Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

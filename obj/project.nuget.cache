@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "uvu2jwqqkmo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\OOP FINAL PROJECT.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\johnjosephdecierdo\\.nuget\\packages\\system.configuration.configurationmanager\\10.0.5\\system.configuration.configurationmanager.10.0.5.nupkg.sha512",
+    "C:\\Users\\johnjosephdecierdo\\.nuget\\packages\\system.data.oledb\\10.0.5\\system.data.oledb.10.0.5.nupkg.sha512",
+    "C:\\Users\\johnjosephdecierdo\\.nuget\\packages\\system.diagnostics.eventlog\\10.0.5\\system.diagnostics.eventlog.10.0.5.nupkg.sha512",
+    "C:\\Users\\johnjosephdecierdo\\.nuget\\packages\\system.diagnostics.performancecounter\\10.0.5\\system.diagnostics.performancecounter.10.0.5.nupkg.sha512",
+    "C:\\Users\\johnjosephdecierdo\\.nuget\\packages\\system.security.cryptography.protecteddata\\10.0.5\\system.security.cryptography.protecteddata.10.0.5.nupkg.sha512",
+    "C:\\Users\\johnjosephdecierdo\\.nuget\\packages\\system.threading.accesscontrol\\10.0.5\\system.threading.accesscontrol.10.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

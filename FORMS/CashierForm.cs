@@ -15,7 +15,8 @@ namespace OOP_FINAL_PROJECT
         public CashierForm()
         {
             InitializeComponent();
-            LoadActiveOrders();
+            LoadPendingOrders();
+            LoadReadyOrders();
             LoadCompletedOrders();
             StartAutoRefresh();
             SessionManager.OrderChanged += OnOrderChanged;
@@ -24,7 +25,8 @@ namespace OOP_FINAL_PROJECT
         private void OnOrderChanged()
         {
             if (!IsDisposed) Invoke((Action)(() => {
-                LoadActiveOrders();
+                LoadPendingOrders();
+                LoadReadyOrders();
                 LoadCompletedOrders();
             }));
         }
@@ -44,7 +46,8 @@ namespace OOP_FINAL_PROJECT
         // ── Tab 1: Active Orders ──────────────────────────────
         private void btnRefresh_Click(object sender, EventArgs e)
         {
-            LoadActiveOrders();
+            LoadPendingOrders();
+            LoadReadyOrders();
             LoadCompletedOrders();
         }
 
@@ -74,10 +77,14 @@ namespace OOP_FINAL_PROJECT
             int orderID = Convert.ToInt32(dgvOrders.SelectedRows[0].Cells["orderID"].Value);
             var editForm = new EditOrderForm(orderID, status);
             if (editForm.ShowDialog() == System.Windows.Forms.DialogResult.OK)
-                LoadActiveOrders();
+            {
+                LoadPendingOrders();
+                LoadReadyOrders();
+            }
         }
 
-        private void dgvOrders_SelectionChanged(object sender, EventArgs e) => LoadOrderDetails();
+        private void dgvOrders_SelectionChanged(object sender, EventArgs e) => LoadOrderDetails(dgvOrders);
+        private void dgvReady_SelectionChanged(object sender, EventArgs e)  => LoadOrderDetails(dgvReady);
 
         private void txtAmountPaid_TextChanged(object sender, EventArgs e)
         {
@@ -96,15 +103,20 @@ namespace OOP_FINAL_PROJECT
                 e.Handled = true;
         }
 
-        private void LoadActiveOrders()
+        private void LoadPendingOrders()
         {
-            dgvOrders.DataSource = _orderRepo.GetOrdersByStatuses(new[] { "Pending", "Ready" });
+            dgvOrders.DataSource = _orderRepo.GetOrdersByStatuses(new[] { "Pending" });
         }
 
-        private void LoadOrderDetails()
+        private void LoadReadyOrders()
         {
-            if (dgvOrders.SelectedRows.Count == 0) return;
-            int orderID = Convert.ToInt32(dgvOrders.SelectedRows[0].Cells["orderID"].Value);
+            dgvReady.DataSource = _orderRepo.GetOrdersByStatuses(new[] { "Ready" });
+        }
+
+        private void LoadOrderDetails(System.Windows.Forms.DataGridView source)
+        {
+            if (source.SelectedRows.Count == 0) return;
+            int orderID = Convert.ToInt32(source.SelectedRows[0].Cells["orderID"].Value);
             dgvDetails.DataSource = _orderRepo.GetOrderDetails(orderID);
             DataTable dt = _orderRepo.GetAllOrders();
             DataRow[] rows = dt.Select($"orderID = {orderID}");
@@ -116,15 +128,15 @@ namespace OOP_FINAL_PROJECT
         {
             if (dgvOrders.SelectedRows.Count == 0)
             {
-                MessageBox.Show("Please select an order first.", "No Selection",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning); return;
+                MessageBox.Show("Please select a Pending order from the left list.",
+                    "No Selection", MessageBoxButtons.OK, MessageBoxIcon.Warning); return;
             }
 
             string status = dgvOrders.SelectedRows[0].Cells["status"].Value?.ToString();
             if (status != "Pending")
             {
-                MessageBox.Show("Only Pending orders can be processed.", "Invalid Status",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning); return;
+                MessageBox.Show("Only Pending orders can be processed.",
+                    "Invalid Status", MessageBoxButtons.OK, MessageBoxIcon.Warning); return;
             }
 
             if (string.IsNullOrWhiteSpace(txtAmountPaid.Text))
@@ -157,41 +169,36 @@ namespace OOP_FINAL_PROJECT
             _paymentRepo.RecordPayment(new Payment
             {
                 OrderID = orderID,
-                Amount = paid,
-                Method = cboMethod.SelectedItem.ToString()
+                Amount  = paid,
+                Method  = cboMethod.SelectedItem.ToString()
             });
             _orderRepo.UpdateStatus(orderID, "Paid");
             SessionManager.NotifyOrderChanged();
 
-            // Show receipt immediately after payment
             var receipt = new ReceiptForm(orderID, paid, cboMethod.SelectedItem.ToString(), total);
             receipt.ShowDialog();
 
             txtAmountPaid.Clear();
             lblChange.Text = "Change: ₱0.00";
-            LoadActiveOrders();
+            LoadPendingOrders();
+            LoadReadyOrders();
             LoadCompletedOrders();
         }
 
         private void MarkCompleted()
         {
-            if (dgvOrders.SelectedRows.Count == 0)
+            if (dgvReady.SelectedRows.Count == 0)
             {
-                MessageBox.Show("Please select an order first.", "No Selection",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning); return;
-            }
-            if (dgvOrders.SelectedRows[0].Cells["status"].Value?.ToString() != "Ready")
-            {
-                MessageBox.Show("Only Ready orders can be completed.", "Invalid Status",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning); return;
+                MessageBox.Show("Please select a Ready order from the green list.",
+                    "No Selection", MessageBoxButtons.OK, MessageBoxIcon.Warning); return;
             }
 
-            int orderID = Convert.ToInt32(dgvOrders.SelectedRows[0].Cells["orderID"].Value);
+            int orderID = Convert.ToInt32(dgvReady.SelectedRows[0].Cells["orderID"].Value);
             _orderRepo.UpdateStatus(orderID, "Completed");
             SessionManager.NotifyOrderChanged();
             MessageBox.Show($"Order #{orderID} marked as Completed!", "Done",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
-            LoadActiveOrders();
+            LoadReadyOrders();
             LoadCompletedOrders();
         }
 
@@ -234,14 +241,29 @@ namespace OOP_FINAL_PROJECT
         private void StartAutoRefresh()
         {
             _refreshTimer = new System.Windows.Forms.Timer { Interval = 8000 };
-            _refreshTimer.Tick += (s, e) => { LoadActiveOrders(); LoadCompletedOrders(); };
+            _refreshTimer.Tick += (s, e) => {
+                LoadPendingOrders();
+                LoadReadyOrders();
+                LoadCompletedOrders();
+            };
             _refreshTimer.Start();
+        }
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                var confirm = MessageBox.Show("Are you sure you want to log out?",
+                    "Confirm Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (confirm != DialogResult.Yes) { e.Cancel = true; return; }
+            }
+            _refreshTimer?.Stop();
+            SessionManager.OrderChanged -= OnOrderChanged;
+            base.OnFormClosing(e);
         }
 
         protected override void OnFormClosed(FormClosedEventArgs e)
         {
-            _refreshTimer?.Stop();
-            SessionManager.OrderChanged -= OnOrderChanged;
             base.OnFormClosed(e);
         }
     }

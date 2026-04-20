@@ -16,38 +16,30 @@ namespace OOP_FINAL_PROJECT
             LoadLogo();
         }
 
-        // ?? Load logo image ??????????????????????????????????
         private void LoadLogo()
         {
             try
             {
-                // Look for logo.png in same folder as the exe
                 string logoPath = System.IO.Path.Combine(
                     AppDomain.CurrentDomain.BaseDirectory, "logo.png");
-
                 if (System.IO.File.Exists(logoPath))
                 {
-                    picLogo.Image = Image.FromFile(logoPath);
+                    picLogo.Image    = Image.FromFile(logoPath);
                     picLogo.SizeMode = PictureBoxSizeMode.Zoom;
                 }
                 else
-                {
-                    // Fallback: just show text if image not found
                     picLogo.BackColor = Color.FromArgb(30, 40, 60);
-                }
             }
-            catch
-            {
-                picLogo.BackColor = Color.FromArgb(30, 40, 60);
-            }
+            catch { picLogo.BackColor = Color.FromArgb(30, 40, 60); }
         }
 
-        // ?? Role button clicks ???????????????????????????????
+        // ── Button handlers ───────────────────────────────────
         private void btnCustomer_Click(object sender, EventArgs e) => OpenRoleWindow("customer");
-        private void btnCashier_Click(object sender, EventArgs e) => OpenRoleWindow("cashier");
-        private void btnCook_Click(object sender, EventArgs e) => OpenRoleWindow("cook");
-        private void btnManager_Click(object sender, EventArgs e) => OpenRoleWindow("manager");
-        private void btnStart_Click(object sender, EventArgs e) => OpenRoleWindow("customer");
+        private void btnCashier_Click (object sender, EventArgs e) => OpenRoleWindow("cashier");
+        private void btnCook_Click    (object sender, EventArgs e) => OpenRoleWindow("cook");
+        private void btnManager_Click (object sender, EventArgs e) => OpenRoleWindow("manager");
+        private void btnOwner_Click   (object sender, EventArgs e) => OpenRoleWindow("owner");
+        private void btnStart_Click   (object sender, EventArgs e) => OpenRoleWindow("customer");
 
         private void btnKDS_Click(object sender, EventArgs e)
         {
@@ -59,17 +51,17 @@ namespace OOP_FINAL_PROJECT
             var kds = new KDSForm();
             kds.StartPosition = FormStartPosition.Manual;
             kds.Location = new Point(
-                (Screen.PrimaryScreen.WorkingArea.Width - kds.Width) / 2,
-                (Screen.PrimaryScreen.WorkingArea.Height - kds.Height) / 2
-            );
+                (Screen.PrimaryScreen.WorkingArea.Width  - kds.Width)  / 2,
+                (Screen.PrimaryScreen.WorkingArea.Height - kds.Height) / 2);
             _openSessions["kds"] = kds;
             kds.FormClosed += (fs, fe) => _openSessions.Remove("kds");
             kds.Show();
         }
 
-        // ?? Open role window without closing HomeForm ????????
+        // ── Main routing ──────────────────────────────────────
         private void OpenRoleWindow(string role)
         {
+            // Already open — just bring to front
             if (_openSessions.ContainsKey(role) && !_openSessions[role].IsDisposed)
             {
                 _openSessions[role].BringToFront();
@@ -77,65 +69,59 @@ namespace OOP_FINAL_PROJECT
                 return;
             }
 
-            var login = new LoginForm();
-            if (login.ShowDialog() != DialogResult.OK) return;
+            // All roles go through login — including Customer
+            var loginForm = new LoginForm();
+            if (loginForm.ShowDialog() != DialogResult.OK) return;
+            var loggedInUser = loginForm.LoggedInUser;
 
-            var user = login.LoggedInUser;
-
-            // ?? Role enforcement ??????????????????????????????
-            // The button clicked must match the user's actual role.
-            // Prevents a Customer from opening the Cashier window, etc.
+            // ── Role enforcement ──────────────────────────────
             bool allowed = false;
             switch (role)
             {
-                case "customer":
-                    allowed = user.Role.ToLower() == "customer";
-                    break;
-                case "cashier":
-                    allowed = user.Role.ToLower() == "cashier";
-                    break;
-                case "cook":
-                    allowed = user.Role.ToLower() == "cook";
-                    break;
-                case "manager":
-                    allowed = user.Role.ToLower() == "manager" || user.Role.ToLower() == "owner";
-                    break;
+                case "customer": allowed = loggedInUser.Role.ToLower() == "customer"; break;
+                case "cashier":  allowed = loggedInUser.Role.ToLower() == "cashier";  break;
+                case "cook":     allowed = loggedInUser.Role.ToLower() == "cook";     break;
+                case "manager":  allowed = loggedInUser.Role.ToLower() == "manager";  break;
+                case "owner":    allowed = loggedInUser.Role.ToLower() == "owner";    break;
             }
 
             if (!allowed)
             {
+                string extra = (loggedInUser.Role.ToLower() == "owner" && role == "manager")
+                    ? "\n\nTip: Use the 👑 Owner Dashboard button instead."
+                    : "\n\nPlease log in with the correct account.";
                 MessageBox.Show(
-                    $"Access Denied!\n\n'{user.Username}' has the role of '{user.Role}'.\n" +
-                    $"This window is for {char.ToUpper(role[0]) + role.Substring(1)} only.\n\n" +
-                    "Please log in with the correct account.",
-                    "Wrong Role",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning);
+                    $"Access Denied!\n\n'{loggedInUser.Username}' has the role '{loggedInUser.Role}'.\n" +
+                    $"The {char.ToUpper(role[0]) + role.Substring(1)} button is for that role only." +
+                    extra,
+                    "Wrong Role", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
+            // ── Create the correct form ───────────────────────
             Form roleForm = null;
-            switch (user.Role.ToLower())
+            switch (loggedInUser.Role.ToLower())
             {
-                case "customer": roleForm = new CustomerForm(user); break;
-                case "cashier": roleForm = new CashierForm(); break;
-                case "cook": roleForm = new CookForm(); break;
-                case "manager":
-                case "owner": roleForm = new ManagerForm(); break;
+                case "customer": roleForm = new CustomerForm(loggedInUser); break;
+                case "cashier":  roleForm = new CashierForm();              break;
+                case "cook":     roleForm = new CookForm();                 break;
+                case "manager":  roleForm = new ManagerForm();              break;
+                case "owner":    roleForm = new OwnerForm();                break;
                 default:
-                    MessageBox.Show("Unknown role: " + user.Role); return;
+                    MessageBox.Show("Unknown role: " + loggedInUser.Role);
+                    return;
             }
 
-            PositionWindow(roleForm, user.Role.ToLower());
+            PositionWindow(roleForm, loggedInUser.Role.ToLower());
 
-            string sessionKey = user.Role.ToLower();
+            string sessionKey = loggedInUser.Role.ToLower();
             _openSessions[sessionKey] = roleForm;
-            UpdateSessionLabel(sessionKey, user.Username, true);
+            UpdateSessionLabel(sessionKey, loggedInUser.Username, true);
 
             roleForm.FormClosed += (s, e) =>
             {
                 _openSessions.Remove(sessionKey);
-                UpdateSessionLabel(sessionKey, user.Username, false);
+                UpdateSessionLabel(sessionKey, loggedInUser.Username, false);
             };
 
             roleForm.Show();
@@ -144,43 +130,56 @@ namespace OOP_FINAL_PROJECT
         private void PositionWindow(Form form, string role)
         {
             var screen = Screen.PrimaryScreen.WorkingArea;
+            form.StartPosition = FormStartPosition.Manual;
             switch (role)
             {
-                case "customer": form.StartPosition = FormStartPosition.Manual; form.Location = new Point(20, 50); break;
-                case "cashier": form.StartPosition = FormStartPosition.Manual; form.Location = new Point(screen.Width - form.Width - 20, 50); break;
-                case "cook": form.StartPosition = FormStartPosition.Manual; form.Location = new Point(20, screen.Height - form.Height - 50); break;
+                case "customer":
+                    form.Location = new Point(20, 50);
+                    break;
+                case "cashier":
+                    form.Location = new Point(screen.Width - form.Width - 20, 50);
+                    break;
+                case "cook":
+                    form.Location = new Point(20, screen.Height - form.Height - 50);
+                    break;
                 case "manager":
-                case "owner": form.StartPosition = FormStartPosition.Manual; form.Location = new Point(screen.Width - form.Width - 20, screen.Height - form.Height - 50); break;
-                default: form.StartPosition = FormStartPosition.CenterScreen; break;
+                case "owner":
+                    form.Location = new Point(screen.Width - form.Width - 20, screen.Height - form.Height - 50);
+                    break;
+                default:
+                    form.StartPosition = FormStartPosition.CenterScreen;
+                    break;
             }
         }
 
         private void UpdateSessionLabel(string role, string username, bool active)
         {
-            Label lbl = null;
+            Label lbl         = null;
             Color activeColor = Color.FromArgb(33, 150, 243);
+
             switch (role)
             {
-                case "customer": lbl = lblCustomerStatus; activeColor = Color.FromArgb(255, 111, 0); break;
-                case "cashier": lbl = lblCashierStatus; activeColor = Color.FromArgb(33, 150, 243); break;
-                case "cook": lbl = lblCookStatus; activeColor = Color.FromArgb(255, 111, 0); break;
-                case "manager":
-                case "owner": lbl = lblManagerStatus; activeColor = Color.FromArgb(33, 150, 243); break;
+                case "customer": lbl = lblCustomerStatus; activeColor = Color.FromArgb(255, 111, 0);   break;
+                case "cashier":  lbl = lblCashierStatus;  activeColor = Color.FromArgb(33,  150, 243); break;
+                case "cook":     lbl = lblCookStatus;     activeColor = Color.FromArgb(255, 111, 0);   break;
+                case "manager":  lbl = lblManagerStatus;  activeColor = Color.FromArgb(13,  71,  161); break;
+                case "owner":    lbl = lblOwnerStatus;    activeColor = Color.FromArgb(183, 110, 0);   break;
             }
+
             if (lbl == null) return;
 
             string roleName = char.ToUpper(role[0]) + role.Substring(1);
             if (active)
             {
-                lbl.Text = $"? {roleName}  �  {username}  ? Active";
+                lbl.Text      = $"● {roleName}  —  {username}  ✔ Active";
                 lbl.ForeColor = activeColor;
-                lbl.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+                lbl.Font      = new Font("Segoe UI", 9F, FontStyle.Bold);
             }
             else
             {
-                lbl.Text = $"? {roleName}  �  Not active";
+                lbl.Text      = $"● {roleName}  —  Not active";
                 lbl.ForeColor = Color.FromArgb(189, 189, 189);
-                lbl.Font = new Font("Segoe UI", 9F, FontStyle.Regular);
+                lbl.Font      = new Font("Segoe UI", 9F, FontStyle.Regular);
             }
         }
 

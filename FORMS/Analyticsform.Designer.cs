@@ -16,8 +16,6 @@
             this.lblLastRefresh = new System.Windows.Forms.Label();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
-
-            // ── Filter bar controls ───────────────────────────
             this.pnlFilter = new System.Windows.Forms.Panel();
             this.lblFilterMode = new System.Windows.Forms.Label();
             this.cmbFilterMode = new System.Windows.Forms.ComboBox();
@@ -26,34 +24,29 @@
             this.lblFilterYear = new System.Windows.Forms.Label();
             this.cmbYear = new System.Windows.Forms.ComboBox();
             this.lblFilterRange = new System.Windows.Forms.Label();
-
-            // Summary cards
+            this.lblFrom = new System.Windows.Forms.Label();
+            this.dtpFrom = new System.Windows.Forms.DateTimePicker();
+            this.lblTo = new System.Windows.Forms.Label();
+            this.dtpTo = new System.Windows.Forms.DateTimePicker();
+            this.btnApplyRange = new System.Windows.Forms.Button();
             this.pnlTodaySales = new System.Windows.Forms.Panel();
             this.lblTodaySalesLbl = new System.Windows.Forms.Label();
             this.lblTodaySales = new System.Windows.Forms.Label();
-
             this.pnlTodayOrders = new System.Windows.Forms.Panel();
             this.lblTodayOrdersLbl = new System.Windows.Forms.Label();
             this.lblTodayOrders = new System.Windows.Forms.Label();
-
-            // Range cards (filtered)
             this.pnlRangeSales = new System.Windows.Forms.Panel();
             this.lblRangeSalesLbl = new System.Windows.Forms.Label();
             this.lblRangeSales = new System.Windows.Forms.Label();
-
             this.pnlRangeOrders = new System.Windows.Forms.Panel();
             this.lblRangeOrdersLbl = new System.Windows.Forms.Label();
             this.lblRangeOrders = new System.Windows.Forms.Label();
-
             this.pnlAvgOrder = new System.Windows.Forms.Panel();
             this.lblAvgOrderLbl = new System.Windows.Forms.Label();
             this.lblAvgOrder = new System.Windows.Forms.Label();
-
             this.pnlCustomers = new System.Windows.Forms.Panel();
             this.lblCustomersLbl = new System.Windows.Forms.Label();
             this.lblCustomers = new System.Windows.Forms.Label();
-
-            // Charts + grids
             this.lblStatusChartTitle = new System.Windows.Forms.Label();
             this.pnlStatusChart = new System.Windows.Forms.Panel();
             this.dgvStatus = new System.Windows.Forms.DataGridView();
@@ -122,7 +115,6 @@
 
             // ── Filter Bar ────────────────────────────────────
             this.pnlFilter.BackColor = System.Drawing.Color.FromArgb(227, 242, 253);
-            this.pnlFilter.Dock = System.Windows.Forms.DockStyle.None;
             this.pnlFilter.Location = new System.Drawing.Point(0, 55);
             this.pnlFilter.Size = new System.Drawing.Size(1110, 42);
             this.pnlFilter.Name = "pnlFilter";
@@ -130,7 +122,10 @@
                 this.lblFilterMode, this.cmbFilterMode,
                 this.lblFilterMonth, this.cmbMonth,
                 this.lblFilterYear,  this.cmbYear,
-                this.lblFilterRange
+                this.lblFilterRange,
+                this.lblFrom, this.dtpFrom,
+                this.lblTo,   this.dtpTo,
+                this.btnApplyRange
             });
 
             this.lblFilterMode.AutoSize = true;
@@ -144,7 +139,7 @@
             this.cmbFilterMode.Location = new System.Drawing.Point(70, 8);
             this.cmbFilterMode.Size = new System.Drawing.Size(100, 24);
             this.cmbFilterMode.Name = "cmbFilterMode";
-            this.cmbFilterMode.Items.AddRange(new object[] { "Monthly", "Yearly" });
+            this.cmbFilterMode.Items.AddRange(new object[] { "Monthly", "Yearly", "Custom Range" });
             this.cmbFilterMode.SelectedIndex = 0;
             this.cmbFilterMode.SelectedIndexChanged += new System.EventHandler(this.cmbFilterMode_SelectedIndexChanged);
 
@@ -178,8 +173,11 @@
             this.cmbYear.Size = new System.Drawing.Size(80, 24);
             this.cmbYear.Name = "cmbYear";
             int currentYear = System.DateTime.Today.Year;
-            for (int y = currentYear - 4; y <= currentYear; y++)
-                this.cmbYear.Items.Add(y);
+            this.cmbYear.Items.Add(currentYear - 4);
+            this.cmbYear.Items.Add(currentYear - 3);
+            this.cmbYear.Items.Add(currentYear - 2);
+            this.cmbYear.Items.Add(currentYear - 1);
+            this.cmbYear.Items.Add(currentYear);
             this.cmbYear.SelectedItem = currentYear;
             this.cmbYear.SelectedIndexChanged += new System.EventHandler(this.cmbYear_SelectedIndexChanged);
 
@@ -190,28 +188,67 @@
             this.lblFilterRange.Name = "lblFilterRange";
             this.lblFilterRange.Text = "Showing: --";
 
-            // ── Summary Cards row (below filter bar at Y=105) ─
+            // ── Custom date range controls (hidden by default) ─
+            this.lblFrom.AutoSize = true;
+            this.lblFrom.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.lblFrom.ForeColor = System.Drawing.Color.FromArgb(13, 71, 161);
+            this.lblFrom.Location = new System.Drawing.Point(182, 12);
+            this.lblFrom.Name = "lblFrom";
+            this.lblFrom.Text = "From:";
+            this.lblFrom.Visible = false;
+
+            this.dtpFrom.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpFrom.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dtpFrom.Location = new System.Drawing.Point(222, 8);
+            this.dtpFrom.Name = "dtpFrom";
+            this.dtpFrom.Size = new System.Drawing.Size(110, 24);
+            this.dtpFrom.Value = new System.DateTime(System.DateTime.Today.Year, System.DateTime.Today.Month, 1);
+            this.dtpFrom.Visible = false;
+
+            this.lblTo.AutoSize = true;
+            this.lblTo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.lblTo.ForeColor = System.Drawing.Color.FromArgb(13, 71, 161);
+            this.lblTo.Location = new System.Drawing.Point(342, 12);
+            this.lblTo.Name = "lblTo";
+            this.lblTo.Text = "To:";
+            this.lblTo.Visible = false;
+
+            this.dtpTo.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpTo.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dtpTo.Location = new System.Drawing.Point(368, 8);
+            this.dtpTo.Name = "dtpTo";
+            this.dtpTo.Size = new System.Drawing.Size(110, 24);
+            this.dtpTo.Value = System.DateTime.Today;
+            this.dtpTo.Visible = false;
+
+            this.btnApplyRange.BackColor = System.Drawing.Color.FromArgb(255, 111, 0);
+            this.btnApplyRange.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnApplyRange.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnApplyRange.ForeColor = System.Drawing.Color.White;
+            this.btnApplyRange.Location = new System.Drawing.Point(488, 6);
+            this.btnApplyRange.Name = "btnApplyRange";
+            this.btnApplyRange.Size = new System.Drawing.Size(90, 28);
+            this.btnApplyRange.Text = "Apply";
+            this.btnApplyRange.Visible = false;
+            this.btnApplyRange.FlatAppearance.BorderSize = 0;
+            this.btnApplyRange.Click += new System.EventHandler(this.btnApplyRange_Click);
+
+            // ── Summary Cards ─────────────────────────────────
             int cardY = 105; int cardH = 80;
             MakeCard(this.pnlTodaySales, this.lblTodaySalesLbl, this.lblTodaySales,
-                     "Today's Sales", "₱0.00", 10, cardY, 170, cardH,
-                     System.Drawing.Color.FromArgb(13, 71, 161));
+                "Today's Sales", "₱0.00", 10, cardY, 170, cardH, System.Drawing.Color.FromArgb(13, 71, 161));
             MakeCard(this.pnlTodayOrders, this.lblTodayOrdersLbl, this.lblTodayOrders,
-                     "Orders Today", "0", 190, cardY, 170, cardH,
-                     System.Drawing.Color.FromArgb(255, 111, 0));
+                "Orders Today", "0", 190, cardY, 170, cardH, System.Drawing.Color.FromArgb(255, 111, 0));
             MakeCard(this.pnlRangeSales, this.lblRangeSalesLbl, this.lblRangeSales,
-                     "Period Sales", "₱0.00", 370, cardY, 170, cardH,
-                     System.Drawing.Color.FromArgb(13, 71, 161));
+                "Period Sales", "₱0.00", 370, cardY, 170, cardH, System.Drawing.Color.FromArgb(13, 71, 161));
             MakeCard(this.pnlRangeOrders, this.lblRangeOrdersLbl, this.lblRangeOrders,
-                     "Period Orders", "0", 550, cardY, 170, cardH,
-                     System.Drawing.Color.FromArgb(255, 111, 0));
+                "Period Orders", "0", 550, cardY, 170, cardH, System.Drawing.Color.FromArgb(255, 111, 0));
             MakeCard(this.pnlAvgOrder, this.lblAvgOrderLbl, this.lblAvgOrder,
-                     "Avg Order", "₱0.00", 730, cardY, 170, cardH,
-                     System.Drawing.Color.FromArgb(13, 71, 161));
+                "Avg Order", "₱0.00", 730, cardY, 170, cardH, System.Drawing.Color.FromArgb(13, 71, 161));
             MakeCard(this.pnlCustomers, this.lblCustomersLbl, this.lblCustomers,
-                     "Customers", "0", 910, cardY, 180, cardH,
-                     System.Drawing.Color.FromArgb(255, 111, 0));
+                "Customers", "0", 910, cardY, 180, cardH, System.Drawing.Color.FromArgb(255, 111, 0));
 
-            // ── Row 2: Status Chart + Grid ────────────────────
+            // ── Status Chart ──────────────────────────────────
             this.lblStatusChartTitle.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.lblStatusChartTitle.ForeColor = System.Drawing.Color.FromArgb(13, 71, 161);
             this.lblStatusChartTitle.Location = new System.Drawing.Point(10, 198);
@@ -235,7 +272,7 @@
             this.dgvStatus.Size = new System.Drawing.Size(240, 160);
             SetGridStyle(this.dgvStatus);
 
-            // ── Row 2 right: Category Chart + Grid ────────────
+            // ── Category Chart ────────────────────────────────
             this.lblCategoryChartTitle.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.lblCategoryChartTitle.ForeColor = System.Drawing.Color.FromArgb(13, 71, 161);
             this.lblCategoryChartTitle.Location = new System.Drawing.Point(655, 198);
@@ -259,7 +296,7 @@
             this.dgvCategory.Size = new System.Drawing.Size(255, 160);
             SetGridStyle(this.dgvCategory);
 
-            // ── Row 3: Top Items + Recent Orders ──────────────
+            // ── Top Items ─────────────────────────────────────
             this.lblTopItemsTitle.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.lblTopItemsTitle.ForeColor = System.Drawing.Color.FromArgb(13, 71, 161);
             this.lblTopItemsTitle.Location = new System.Drawing.Point(10, 396);
@@ -276,6 +313,7 @@
             this.dgvTopItems.Size = new System.Drawing.Size(630, 200);
             SetGridStyle(this.dgvTopItems);
 
+            // ── Recent Orders ─────────────────────────────────
             this.lblRecentTitle.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.lblRecentTitle.ForeColor = System.Drawing.Color.FromArgb(13, 71, 161);
             this.lblRecentTitle.Location = new System.Drawing.Point(655, 396);
@@ -301,8 +339,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Analytics Dashboard";
             this.Controls.AddRange(new System.Windows.Forms.Control[] {
-                this.pnlHeader,
-                this.pnlFilter,
+                this.pnlHeader, this.pnlFilter,
                 this.pnlTodaySales, this.pnlTodayOrders,
                 this.pnlRangeSales, this.pnlRangeOrders,
                 this.pnlAvgOrder, this.pnlCustomers,
@@ -365,13 +402,11 @@
             dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
         }
 
-        // ── Control declarations ──────────────────────────────
         private System.Windows.Forms.Panel pnlHeader;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Label lblLastRefresh;
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Button btnClose;
-
         private System.Windows.Forms.Panel pnlFilter;
         private System.Windows.Forms.Label lblFilterMode;
         private System.Windows.Forms.ComboBox cmbFilterMode;
@@ -380,28 +415,29 @@
         private System.Windows.Forms.Label lblFilterYear;
         private System.Windows.Forms.ComboBox cmbYear;
         private System.Windows.Forms.Label lblFilterRange;
-
+        private System.Windows.Forms.Label lblFrom;
+        private System.Windows.Forms.DateTimePicker dtpFrom;
+        private System.Windows.Forms.Label lblTo;
+        private System.Windows.Forms.DateTimePicker dtpTo;
+        private System.Windows.Forms.Button btnApplyRange;
         private System.Windows.Forms.Panel pnlTodaySales;
         private System.Windows.Forms.Label lblTodaySalesLbl;
         private System.Windows.Forms.Label lblTodaySales;
         private System.Windows.Forms.Panel pnlTodayOrders;
         private System.Windows.Forms.Label lblTodayOrdersLbl;
         private System.Windows.Forms.Label lblTodayOrders;
-
         private System.Windows.Forms.Panel pnlRangeSales;
         private System.Windows.Forms.Label lblRangeSalesLbl;
         private System.Windows.Forms.Label lblRangeSales;
         private System.Windows.Forms.Panel pnlRangeOrders;
         private System.Windows.Forms.Label lblRangeOrdersLbl;
         private System.Windows.Forms.Label lblRangeOrders;
-
         private System.Windows.Forms.Panel pnlAvgOrder;
         private System.Windows.Forms.Label lblAvgOrderLbl;
         private System.Windows.Forms.Label lblAvgOrder;
         private System.Windows.Forms.Panel pnlCustomers;
         private System.Windows.Forms.Label lblCustomersLbl;
         private System.Windows.Forms.Label lblCustomers;
-
         private System.Windows.Forms.Label lblStatusChartTitle;
         private System.Windows.Forms.Panel pnlStatusChart;
         private System.Windows.Forms.DataGridView dgvStatus;

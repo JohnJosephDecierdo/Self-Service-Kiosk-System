@@ -75,10 +75,21 @@ namespace OOP_FINAL_PROJECT
             _refreshTimer.Start();
         }
 
-        protected override void OnFormClosed(FormClosedEventArgs e)
+        protected override void OnFormClosing(FormClosingEventArgs e)
         {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                var confirm = MessageBox.Show("Are you sure you want to log out?",
+                    "Confirm Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (confirm != DialogResult.Yes) { e.Cancel = true; return; }
+            }
             _refreshTimer?.Stop();
             SessionManager.OrderChanged -= OnOrderChanged;
+            base.OnFormClosing(e);
+        }
+
+        protected override void OnFormClosed(FormClosedEventArgs e)
+        {
             base.OnFormClosed(e);
         }
     }
