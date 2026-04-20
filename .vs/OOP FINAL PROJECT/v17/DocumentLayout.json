@@ -227,7 +227,8 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-03T12:01:32.056Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -239,7 +240,8 @@
               "RelativeToolTip": "FORMS\\OwnerForm.Designer.cs",
               "ViewState": "AgIAAKsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:57:00.215Z"
+              "WhenOpened": "2026-04-17T01:57:00.215Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -249,7 +251,7 @@
               "RelativeDocumentMoniker": "FORMS\\OwnerForm.cs",
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\OwnerForm.cs",
               "RelativeToolTip": "FORMS\\OwnerForm.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKQAAAAAAAAAAAA6wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T01:56:49.006Z",
               "EditorCaption": ""
@@ -263,7 +265,8 @@
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\OwnerForm.cs [Design]",
               "RelativeToolTip": "FORMS\\OwnerForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:56:34.452Z"
+              "WhenOpened": "2026-04-17T01:56:34.452Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -275,7 +278,8 @@
               "RelativeToolTip": "Models\\PasswordHelper.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T17:47:33.158Z"
+              "WhenOpened": "2026-04-16T17:47:33.158Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -286,7 +290,8 @@
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Analyticsform.cs [Design]",
               "RelativeToolTip": "FORMS\\Analyticsform.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T17:30:45.535Z"
+              "WhenOpened": "2026-04-16T17:30:45.535Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -298,7 +303,8 @@
               "RelativeToolTip": "FORMS\\Receiptform.Designer.cs",
               "ViewState": "AgIAACQBAAAAAAAAAAAUwDcBAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T11:08:30.798Z"
+              "WhenOpened": "2026-04-12T11:08:30.798Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -322,7 +328,8 @@
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Receiptform.cs [Design]",
               "RelativeToolTip": "FORMS\\Receiptform.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T11:08:18.219Z"
+              "WhenOpened": "2026-04-12T11:08:18.219Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -332,7 +339,7 @@
               "RelativeDocumentMoniker": "Analytics.cs",
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\Analytics.cs",
               "RelativeToolTip": "Analytics.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAE0AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEoAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-11T10:16:47.846Z",
               "EditorCaption": ""
@@ -347,7 +354,8 @@
               "RelativeToolTip": "FORMS\\Analyticsform.Designer.cs",
               "ViewState": "AgIAAKMBAAAAAAAAAAAUwMMBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T03:27:32.945Z"
+              "WhenOpened": "2026-04-11T03:27:32.945Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -359,7 +367,8 @@
               "RelativeToolTip": "FORMS\\Analyticsform.cs",
               "ViewState": "AgIAADMBAAAAAAAAAAAUwFMBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T03:27:30.048Z"
+              "WhenOpened": "2026-04-11T03:27:30.048Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -371,7 +380,8 @@
               "RelativeToolTip": "FORMS\\CookForm.Designer.cs",
               "ViewState": "AgIAAHsAAAAAAAAAAAAmwI8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T17:23:05.971Z"
+              "WhenOpened": "2026-04-10T17:23:05.971Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -382,7 +392,8 @@
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CookForm.resx",
               "RelativeToolTip": "FORMS\\CookForm.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-04-10T17:23:04.791Z"
+              "WhenOpened": "2026-04-10T17:23:04.791Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -393,7 +404,8 @@
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Pinpromptform.cs [Design]",
               "RelativeToolTip": "FORMS\\Pinpromptform.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T11:06:58.341Z"
+              "WhenOpened": "2026-04-09T11:06:58.341Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -404,7 +416,8 @@
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\ManagerForm.cs [Design]",
               "RelativeToolTip": "FORMS\\ManagerForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T08:34:28.054Z"
+              "WhenOpened": "2026-04-09T08:34:28.054Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -416,7 +429,8 @@
               "RelativeToolTip": "FORMS\\Pinpromptform.Designer.cs",
               "ViewState": "AgIAAPYAAAAAAAAAAAAmwAIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T08:32:46.627Z"
+              "WhenOpened": "2026-04-09T08:32:46.627Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -428,7 +442,8 @@
               "RelativeToolTip": "FORMS\\Pinpromptform.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAmwEkAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T08:32:42.219Z"
+              "WhenOpened": "2026-04-09T08:32:42.219Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -440,7 +455,8 @@
               "RelativeToolTip": "FORMS\\Editorderform.Designer.cs",
               "ViewState": "AgIAAAUBAAAAAAAAAAAUwA8BAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T14:23:07.699Z"
+              "WhenOpened": "2026-04-08T14:23:07.699Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -464,7 +480,8 @@
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Editorderform.cs [Design]",
               "RelativeToolTip": "FORMS\\Editorderform.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T14:22:38.463Z"
+              "WhenOpened": "2026-04-08T14:22:38.463Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -474,9 +491,10 @@
               "RelativeDocumentMoniker": "FORMS\\EditUserForm.Designer.cs",
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\EditUserForm.Designer.cs",
               "RelativeToolTip": "FORMS\\EditUserForm.Designer.cs",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAAANUAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAMMAAAAAAAAAAIBJwNUAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T10:42:28.452Z"
+              "WhenOpened": "2026-04-08T10:42:28.452Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -486,7 +504,7 @@
               "RelativeDocumentMoniker": "FORMS\\EditUserForm.cs",
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\EditUserForm.cs",
               "RelativeToolTip": "FORMS\\EditUserForm.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAAAJYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAHAAAAAAAAAAAIBJwJYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T10:42:18.969Z",
               "EditorCaption": ""
@@ -500,7 +518,8 @@
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\EditUserForm.cs [Design]",
               "RelativeToolTip": "FORMS\\EditUserForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T10:42:10.977Z"
+              "WhenOpened": "2026-04-08T10:42:10.977Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -512,7 +531,8 @@
               "RelativeToolTip": "FORMS\\HomeForm.Designer.cs",
               "ViewState": "AgIAABIBAAAAAAAAAAAIwCoBAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T07:32:56.05Z"
+              "WhenOpened": "2026-04-07T07:32:56.05Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -523,7 +543,8 @@
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\LogInForm.cs [Design]",
               "RelativeToolTip": "FORMS\\LogInForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T13:12:07.648Z"
+              "WhenOpened": "2026-04-06T13:12:07.648Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -535,7 +556,8 @@
               "RelativeToolTip": "FORMS\\Registerform.Designer.cs",
               "ViewState": "AgIAAM0AAAAAAAAAAAAmwN8AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T15:47:37Z"
+              "WhenOpened": "2026-04-05T15:47:37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -559,7 +581,8 @@
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Registerform.cs [Design]",
               "RelativeToolTip": "FORMS\\Registerform.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T15:47:24.444Z"
+              "WhenOpened": "2026-04-05T15:47:24.444Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -571,7 +594,8 @@
               "RelativeToolTip": "FORMS\\ManagerForm.Designer.cs",
               "ViewState": "AgIAAIkCAAAAAAAAAAAUwI8CAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T15:43:17.387Z"
+              "WhenOpened": "2026-04-05T15:43:17.387Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -583,7 +607,8 @@
               "RelativeToolTip": "FORMS\\CashierForm.Designer.cs",
               "ViewState": "AgIAAGMBAAAAAAAAAAAwwHMBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T15:42:51.21Z"
+              "WhenOpened": "2026-04-05T15:42:51.21Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -595,7 +620,8 @@
               "RelativeToolTip": "FORMS\\LogInForm.Designer.cs",
               "ViewState": "AgIAAJwAAAAAAAAAAAAmwK4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T15:42:15.635Z"
+              "WhenOpened": "2026-04-05T15:42:15.635Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -607,7 +633,8 @@
               "RelativeToolTip": "FORMS\\KdsForm.Designer.cs",
               "ViewState": "AgIAALcAAAAAAAAAAAAowNEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T08:37:30.936Z"
+              "WhenOpened": "2026-04-04T08:37:30.936Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -619,7 +646,8 @@
               "RelativeToolTip": "SessionManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T12:50:05.736Z"
+              "WhenOpened": "2026-04-03T12:50:05.736Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -629,9 +657,10 @@
               "RelativeDocumentMoniker": "FORMS\\CustomerForm.Designer.cs",
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CustomerForm.Designer.cs",
               "RelativeToolTip": "FORMS\\CustomerForm.Designer.cs",
-              "ViewState": "AgIAACUBAAAAAAAAAAAmwDABAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAACUBAAAAAAAAAAAmwDABAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T12:48:05.665Z"
+              "WhenOpened": "2026-04-03T12:48:05.665Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -642,7 +671,8 @@
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CashierForm.cs [Design]",
               "RelativeToolTip": "FORMS\\CashierForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T12:47:53.339Z"
+              "WhenOpened": "2026-04-03T12:47:53.339Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -666,7 +696,8 @@
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\KdsForm.cs [Design]",
               "RelativeToolTip": "FORMS\\KdsForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T12:46:29.091Z"
+              "WhenOpened": "2026-04-03T12:46:29.091Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -678,7 +709,8 @@
               "RelativeToolTip": "FORMS\\ManagerForm.cs",
               "ViewState": "AgIAAH8BAAAAAAAAAAAUwIgBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T12:45:37.11Z"
+              "WhenOpened": "2026-04-03T12:45:37.11Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -702,7 +734,8 @@
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CookForm.cs [Design]",
               "RelativeToolTip": "FORMS\\CookForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T12:44:36.046Z"
+              "WhenOpened": "2026-04-03T12:44:36.046Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -712,9 +745,10 @@
               "RelativeDocumentMoniker": "FORMS\\CashierForm.cs",
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CashierForm.cs",
               "RelativeToolTip": "FORMS\\CashierForm.cs",
-              "ViewState": "AgIAAPAAAAAAAAAAAAA1wAABAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAPEAAAAAAAAAAAAQwAABAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T12:44:06.092Z"
+              "WhenOpened": "2026-04-03T12:44:06.092Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -726,7 +760,8 @@
               "RelativeToolTip": "FORMS\\LogInForm.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAYwFIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T12:43:19.145Z"
+              "WhenOpened": "2026-04-03T12:43:19.145Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -751,7 +786,8 @@
               "RelativeToolTip": "Database\\DatabaseHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T12:40:51.509Z"
+              "WhenOpened": "2026-04-03T12:40:51.509Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -775,7 +811,8 @@
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CustomerForm.cs [Design]",
               "RelativeToolTip": "FORMS\\CustomerForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T12:14:28.536Z"
+              "WhenOpened": "2026-04-03T12:14:28.536Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -787,7 +824,8 @@
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAJQAAAAAAAAAAAAwwKkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T12:11:06.38Z"
+              "WhenOpened": "2026-04-03T12:11:06.38Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -799,7 +837,8 @@
               "RelativeToolTip": "Models\\Order.cs",
               "ViewState": "AgIAAKcAAAAAAAAAAAAiwL8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T12:10:09.574Z"
+              "WhenOpened": "2026-04-03T12:10:09.574Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -811,7 +850,8 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T12:01:59.93Z"
+              "WhenOpened": "2026-04-03T12:01:59.93Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -822,7 +862,8 @@
               "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\HomeForm.cs [Design]",
               "RelativeToolTip": "FORMS\\HomeForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T11:58:54.591Z"
+              "WhenOpened": "2026-04-03T11:58:54.591Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
