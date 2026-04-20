@@ -247,7 +247,22 @@ namespace OOP_FINAL_PROJECT
         {
             if (dgvCart.SelectedRows.Count == 0) return;
             int idx = dgvCart.SelectedRows[0].Index;
-            if (idx < _cart.Count) _cart.RemoveAt(idx);
+            if (idx < 0 || idx >= _cart.Count) return;
+
+            if (_cart[idx].Quantity > 1)
+                _cart[idx].Quantity--;
+            else
+                _cart.RemoveAt(idx);
+
+            RefreshCart();
+        }
+
+        private void btnIncrease_Click(object sender, EventArgs e)
+        {
+            if (dgvCart.SelectedRows.Count == 0) return;
+            int idx = dgvCart.SelectedRows[0].Index;
+            if (idx < 0 || idx >= _cart.Count) return;
+            _cart[idx].Quantity++;
             RefreshCart();
         }
 

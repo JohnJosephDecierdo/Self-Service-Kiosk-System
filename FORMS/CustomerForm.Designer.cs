@@ -44,6 +44,7 @@
             this.colSubtotal     = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblTotal        = new System.Windows.Forms.Label();
             this.btnRemove       = new System.Windows.Forms.Button();
+            this.btnIncrease     = new System.Windows.Forms.Button();
             this.btnPlace        = new System.Windows.Forms.Button();
             this.btnClear        = new System.Windows.Forms.Button();
 
@@ -203,7 +204,7 @@
             this.pnlCart.BackColor = System.Drawing.Color.FromArgb(236, 240, 241);
             this.pnlCart.Controls.AddRange(new System.Windows.Forms.Control[] {
                 this.lblCartTitle, this.dgvCart, this.lblTotal,
-                this.btnRemove, this.btnPlace, this.btnClear
+                this.btnRemove, this.btnIncrease, this.btnPlace, this.btnClear
             });
             this.pnlCart.Location = new System.Drawing.Point(625, 48);
             this.pnlCart.Size     = new System.Drawing.Size(375, 632);
@@ -239,18 +240,29 @@
             this.btnRemove.Font      = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnRemove.ForeColor = System.Drawing.Color.White;
             this.btnRemove.Location  = new System.Drawing.Point(5, 404);
-            this.btnRemove.Size      = new System.Drawing.Size(175, 38);
-            this.btnRemove.Text      = "Remove Item";
+            this.btnRemove.Size      = new System.Drawing.Size(114, 38);
+            this.btnRemove.Text      = "−  Decrease";
             this.btnRemove.FlatAppearance.BorderSize = 0;
             this.btnRemove.Cursor    = System.Windows.Forms.Cursors.Hand;
             this.btnRemove.Click    += new System.EventHandler(this.btnRemove_Click);
+
+            this.btnIncrease.BackColor = System.Drawing.Color.FromArgb(39, 174, 96);
+            this.btnIncrease.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIncrease.Font      = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnIncrease.ForeColor = System.Drawing.Color.White;
+            this.btnIncrease.Location  = new System.Drawing.Point(122, 404);
+            this.btnIncrease.Size      = new System.Drawing.Size(114, 38);
+            this.btnIncrease.Text      = "+  Increase";
+            this.btnIncrease.FlatAppearance.BorderSize = 0;
+            this.btnIncrease.Cursor    = System.Windows.Forms.Cursors.Hand;
+            this.btnIncrease.Click    += new System.EventHandler(this.btnIncrease_Click);
 
             this.btnPlace.BackColor = System.Drawing.Color.FromArgb(255, 111, 0);
             this.btnPlace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPlace.Font      = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnPlace.ForeColor = System.Drawing.Color.White;
-            this.btnPlace.Location  = new System.Drawing.Point(188, 404);
-            this.btnPlace.Size      = new System.Drawing.Size(180, 38);
+            this.btnPlace.Location  = new System.Drawing.Point(239, 404);
+            this.btnPlace.Size      = new System.Drawing.Size(129, 38);
             this.btnPlace.Text      = "Place Order ▶";
             this.btnPlace.FlatAppearance.BorderSize = 0;
             this.btnPlace.Cursor    = System.Windows.Forms.Cursors.Hand;
@@ -437,6 +449,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colSubtotal;
         private System.Windows.Forms.Label    lblTotal;
         private System.Windows.Forms.Button   btnRemove;
+        private System.Windows.Forms.Button   btnIncrease;
         private System.Windows.Forms.Button   btnPlace;
         private System.Windows.Forms.Button   btnClear;
         private System.Windows.Forms.Panel    pnlConfirmation;

@@ -15,4 +15,11 @@
     <PackageReference Include="System.Data.OleDb" Version="10.0.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="KioskSystem\**" />
+    <EmbeddedResource Remove="KioskSystem\**" />
+    <None Remove="KioskSystem\**" />
+    <Content Remove="KioskSystem\**" />
+  </ItemGroup>
+
 </Project>

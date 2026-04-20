@@ -57,7 +57,7 @@ namespace OOP_FINAL_PROJECT.Models
             OleDbParameter[] p =
             {
                 new OleDbParameter("@u", order.UserID),
-                new OleDbParameter("@d", DateTime.Now.ToString("MM/dd/yyyy HH:mm:ss")),
+                new OleDbParameter("@d", DateTime.Now),
                 new OleDbParameter("@t", order.TotalAmount),
                 new OleDbParameter("@s", "Pending")
             };
