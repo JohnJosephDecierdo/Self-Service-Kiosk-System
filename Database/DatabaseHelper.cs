@@ -7,7 +7,7 @@ namespace OOP_FINAL_PROJECT.Database
     public class DatabaseHelper
     {
         private static readonly string ConnectionString =
-            @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\KioskDB.accdb;Persist Security Info=False;";
+            @"Provider=Microsoft.ACE.OLEDB.16.0;Data Source=|DataDirectory|\KioskDB.accdb;Persist Security Info=False;";
 
         public static OleDbConnection GetConnection()
         {
