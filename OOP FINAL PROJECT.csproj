@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>OOP_FINAL_PROJECT</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>AnyCPU;x86;x64</Platforms>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.OleDb" Version="10.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="KioskSystem\**" />
+    <EmbeddedResource Remove="KioskSystem\**" />
+    <None Remove="KioskSystem\**" />
+    <Content Remove="KioskSystem\**" />
+  </ItemGroup>
+
+</Project>
