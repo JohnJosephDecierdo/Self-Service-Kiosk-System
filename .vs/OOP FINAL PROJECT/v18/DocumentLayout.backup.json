@@ -1,0 +1,830 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\database\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:database\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\analytics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:analytics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\forms\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\forms\\cookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\cookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\forms\\receiptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\receiptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\cashierform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\cashierform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\editorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\editorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\ownerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\ownerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\ownerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\ownerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\forms\\ownerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\ownerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\homeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\homeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\models\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:models\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\forms\\analyticsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\analyticsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\analyticsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\analyticsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\analyticsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\analyticsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\editorderform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\editorderform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\forms\\editorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\editorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\managerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\managerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\forms\\managerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\managerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\managerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\managerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\forms\\edituserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\edituserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\cashierform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\cashierform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\receiptform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\receiptform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\receiptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\receiptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\cookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\cookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\forms\\cashierform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\cashierform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\pinpromptform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\pinpromptform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\pinpromptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\pinpromptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\forms\\pinpromptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\pinpromptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\cookform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\cookform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\cookform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\cookform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\customerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\customerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\edituserform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\edituserform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\edituserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\edituserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\models\\menuitem (1).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:models\\menuitem (1).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\kdsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\kdsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|c:\\users\\gabriel\\onedrive\\documents\\joseph\\self-service-kiosk-system-main\\forms\\kdsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\kdsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\forms\\kdsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CADE488F-3C3E-49BB-9838-5DAAECABF12D}|OOP FINAL PROJECT.csproj|solutionrelative:forms\\kdsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OwnerForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\OwnerForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\OwnerForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\OwnerForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\OwnerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\Models\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "Models\\PasswordHelper.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\Models\\PasswordHelper.cs",
+              "RelativeToolTip": "Models\\PasswordHelper.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Analyticsform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Analyticsform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Analyticsform.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Analyticsform.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Analyticsform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Analytics.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\Analytics.cs",
+              "RelativeDocumentMoniker": "Analytics.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\Analytics.cs",
+              "RelativeToolTip": "Analytics.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwB8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MenuItem (1).cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\Models\\MenuItem (1).cs",
+              "RelativeDocumentMoniker": "Models\\MenuItem (1).cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\Models\\MenuItem (1).cs",
+              "RelativeToolTip": "Models\\MenuItem (1).cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:48.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\Database\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "Database\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\Database\\DatabaseHelper.cs",
+              "RelativeToolTip": "Database\\DatabaseHelper.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAApwCsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:51.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OwnerForm.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\OwnerForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\OwnerForm.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\OwnerForm.cs",
+              "RelativeToolTip": "FORMS\\OwnerForm.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAA6wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:49.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Receiptform.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Receiptform.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\Receiptform.Designer.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Receiptform.Designer.cs",
+              "RelativeToolTip": "FORMS\\Receiptform.Designer.cs",
+              "ViewState": "AgIAACQBAAAAAAAAAAAUwDcBAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OwnerForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\OwnerForm.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\OwnerForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\OwnerForm.Designer.cs",
+              "RelativeToolTip": "FORMS\\OwnerForm.Designer.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:49.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Receiptform.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Receiptform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Receiptform.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Receiptform.cs",
+              "RelativeToolTip": "FORMS\\Receiptform.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAUwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Receiptform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Receiptform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Receiptform.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Receiptform.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Receiptform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Analyticsform.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Analyticsform.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\Analyticsform.Designer.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Analyticsform.Designer.cs",
+              "RelativeToolTip": "FORMS\\Analyticsform.Designer.cs",
+              "ViewState": "AgIAAKMBAAAAAAAAAAAUwMMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Analyticsform.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Analyticsform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Analyticsform.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Analyticsform.cs",
+              "RelativeToolTip": "FORMS\\Analyticsform.cs",
+              "ViewState": "AgIAADMBAAAAAAAAAAAUwFMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CookForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\CookForm.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\CookForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\CookForm.Designer.cs",
+              "RelativeToolTip": "FORMS\\CookForm.Designer.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAmwI8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CookForm.resx",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\CookForm.resx",
+              "RelativeDocumentMoniker": "FORMS\\CookForm.resx",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\CookForm.resx",
+              "RelativeToolTip": "FORMS\\CookForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-04-20T21:56:50.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Pinpromptform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Pinpromptform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Pinpromptform.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Pinpromptform.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Pinpromptform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ManagerForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\ManagerForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\ManagerForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\ManagerForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\ManagerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Pinpromptform.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Pinpromptform.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\Pinpromptform.Designer.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Pinpromptform.Designer.cs",
+              "RelativeToolTip": "FORMS\\Pinpromptform.Designer.cs",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAmwAIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Pinpromptform.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Pinpromptform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Pinpromptform.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Pinpromptform.cs",
+              "RelativeToolTip": "FORMS\\Pinpromptform.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAmwEkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Editorderform.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Editorderform.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\Editorderform.Designer.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Editorderform.Designer.cs",
+              "RelativeToolTip": "FORMS\\Editorderform.Designer.cs",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAUwA8BAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Editorderform.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Editorderform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Editorderform.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Editorderform.cs",
+              "RelativeToolTip": "FORMS\\Editorderform.cs",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAgwPkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Editorderform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Editorderform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Editorderform.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Editorderform.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Editorderform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "EditUserForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\EditUserForm.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\EditUserForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\EditUserForm.Designer.cs",
+              "RelativeToolTip": "FORMS\\EditUserForm.Designer.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAIBJwNUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "EditUserForm.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\EditUserForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\EditUserForm.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\EditUserForm.cs",
+              "RelativeToolTip": "FORMS\\EditUserForm.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAIBJwJYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditUserForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\EditUserForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\EditUserForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\EditUserForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\EditUserForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\HomeForm.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\HomeForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\HomeForm.Designer.cs",
+              "RelativeToolTip": "FORMS\\HomeForm.Designer.cs",
+              "ViewState": "AgIAABIBAAAAAAAAAAAIwCoBAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LogInForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\LogInForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\LogInForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\LogInForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\LogInForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Registerform.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Registerform.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\Registerform.Designer.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Registerform.Designer.cs",
+              "RelativeToolTip": "FORMS\\Registerform.Designer.cs",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAmwN8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Registerform.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Registerform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Registerform.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Registerform.cs",
+              "RelativeToolTip": "FORMS\\Registerform.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAYwM8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Registerform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\Registerform.cs",
+              "RelativeDocumentMoniker": "FORMS\\Registerform.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Registerform.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\Registerform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ManagerForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\ManagerForm.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\ManagerForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\ManagerForm.Designer.cs",
+              "RelativeToolTip": "FORMS\\ManagerForm.Designer.cs",
+              "ViewState": "AgIAAIkCAAAAAAAAAAAUwI8CAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CashierForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\CashierForm.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\CashierForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\CashierForm.Designer.cs",
+              "RelativeToolTip": "FORMS\\CashierForm.Designer.cs",
+              "ViewState": "AgIAAGMBAAAAAAAAAAAwwHMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LogInForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\LogInForm.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\LogInForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\LogInForm.Designer.cs",
+              "RelativeToolTip": "FORMS\\LogInForm.Designer.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAmwK4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "KdsForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\KdsForm.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\KdsForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\KdsForm.Designer.cs",
+              "RelativeToolTip": "FORMS\\KdsForm.Designer.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAowNEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SessionManager.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\SessionManager.cs",
+              "RelativeDocumentMoniker": "SessionManager.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\SessionManager.cs",
+              "RelativeToolTip": "SessionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CustomerForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\CustomerForm.Designer.cs",
+              "RelativeDocumentMoniker": "FORMS\\CustomerForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\CustomerForm.Designer.cs",
+              "RelativeToolTip": "FORMS\\CustomerForm.Designer.cs",
+              "ViewState": "AgIAACUBAAAAAAAAAAAmwDABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CashierForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\CashierForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\CashierForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CashierForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CashierForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "KdsForm.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\KdsForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\KdsForm.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\KdsForm.cs",
+              "RelativeToolTip": "FORMS\\KdsForm.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAgwNMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "KdsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\KdsForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\KdsForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\KdsForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\KdsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:50.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ManagerForm.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\ManagerForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\ManagerForm.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\ManagerForm.cs",
+              "RelativeToolTip": "FORMS\\ManagerForm.cs",
+              "ViewState": "AgIAAH8BAAAAAAAAAAAUwIgBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:51.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CookForm.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\CookForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\CookForm.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\CookForm.cs",
+              "RelativeToolTip": "FORMS\\CookForm.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAUwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:51.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CookForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\CookForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\CookForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CookForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CookForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:51.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CashierForm.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\CashierForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\CashierForm.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\CashierForm.cs",
+              "RelativeToolTip": "FORMS\\CashierForm.cs",
+              "ViewState": "AgIAAPEAAAAAAAAAAAAQwAABAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:51.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "LogInForm.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\LogInForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\LogInForm.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\LogInForm.cs",
+              "RelativeToolTip": "FORMS\\LogInForm.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:51.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerForm.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\CustomerForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\CustomerForm.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\CustomerForm.cs",
+              "RelativeToolTip": "FORMS\\CustomerForm.cs",
+              "ViewState": "AgIAABwCAAAAAAAAAAAwwCwCAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:51.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeForm.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\HomeForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\HomeForm.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\HomeForm.cs",
+              "RelativeToolTip": "FORMS\\HomeForm.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowE0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:51.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\CustomerForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\CustomerForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CustomerForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\CustomerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:51.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAwwKkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:51.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAiwL8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:51.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:51.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documents\\Joseph\\Self-Service-Kiosk-System-main\\FORMS\\HomeForm.cs",
+              "RelativeDocumentMoniker": "FORMS\\HomeForm.cs",
+              "ToolTip": "C:\\Users\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\HomeForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\johnjosephdecierdo\\source\\repos\\OOP FINAL PROJECT\\FORMS\\HomeForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T21:56:51.055Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.csproj.AssemblyReference.cache
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.CashierForm.resources
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.CookForm.resources
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.CustomerForm.resources
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.HomeForm.resources
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.KDSForm.resources
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.LoginForm.resources
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.ManagerForm.resources
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.csproj.GenerateResource.cache
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.AssemblyInfoInputs.cache
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.AssemblyInfo.cs
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.csproj.CoreCompileInputs.cache
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\bin\x86\Debug\net8.0-windows\OOP FINAL PROJECT.exe
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\bin\x86\Debug\net8.0-windows\OOP FINAL PROJECT.deps.json
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\bin\x86\Debug\net8.0-windows\OOP FINAL PROJECT.runtimeconfig.json
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\bin\x86\Debug\net8.0-windows\OOP FINAL PROJECT.dll
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\bin\x86\Debug\net8.0-windows\OOP FINAL PROJECT.pdb
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\bin\x86\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\bin\x86\Debug\net8.0-windows\System.Data.OleDb.dll
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\bin\x86\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\bin\x86\Debug\net8.0-windows\System.Diagnostics.PerformanceCounter.dll
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\bin\x86\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\bin\x86\Debug\net8.0-windows\System.Threading.AccessControl.dll
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\bin\x86\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.OleDb.dll
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\bin\x86\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\bin\x86\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\bin\x86\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\bin\x86\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Threading.AccessControl.dll
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP FINA.A23E6856.Up2Date
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.dll
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\refint\OOP FINAL PROJECT.dll
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.pdb
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.genruntimeconfig.cache
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\ref\OOP FINAL PROJECT.dll
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.RegisterForm.resources
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.EditUserForm.resources
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.EditOrderForm.resources
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.PINPromptForm.resources
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.AnalyticsForm.resources
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.sourcelink.json
+C:\Users\johnjosephdecierdo\source\repos\OOP FINAL PROJECT\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.ReceiptForm.resources
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\bin\x86\Debug\net8.0-windows\OOP FINAL PROJECT.exe
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\bin\x86\Debug\net8.0-windows\OOP FINAL PROJECT.deps.json
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\bin\x86\Debug\net8.0-windows\OOP FINAL PROJECT.runtimeconfig.json
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\bin\x86\Debug\net8.0-windows\OOP FINAL PROJECT.dll
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\bin\x86\Debug\net8.0-windows\OOP FINAL PROJECT.pdb
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\bin\x86\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\bin\x86\Debug\net8.0-windows\System.Data.OleDb.dll
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\bin\x86\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\bin\x86\Debug\net8.0-windows\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\bin\x86\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\bin\x86\Debug\net8.0-windows\System.Threading.AccessControl.dll
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\bin\x86\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.OleDb.dll
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\bin\x86\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\bin\x86\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\bin\x86\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\bin\x86\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Threading.AccessControl.dll
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.csproj.AssemblyReference.cache
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.AnalyticsForm.resources
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.CashierForm.resources
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.CookForm.resources
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.CustomerForm.resources
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.EditOrderForm.resources
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.EditUserForm.resources
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.HomeForm.resources
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.KDSForm.resources
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.LoginForm.resources
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.ManagerForm.resources
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.PINPromptForm.resources
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.ReceiptForm.resources
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.RegisterForm.resources
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.csproj.GenerateResource.cache
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.AssemblyInfoInputs.cache
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.AssemblyInfo.cs
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP FINA.A23E6856.Up2Date
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.dll
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\refint\OOP FINAL PROJECT.dll
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.pdb
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.genruntimeconfig.cache
+C:\Users\Gabriel\OneDrive\Documents\Joseph\Self-Service-Kiosk-System-main\obj\x86\Debug\net8.0-windows\ref\OOP FINAL PROJECT.dll
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\bin\x86\Debug\net8.0-windows\OOP FINAL PROJECT.exe
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\bin\x86\Debug\net8.0-windows\OOP FINAL PROJECT.deps.json
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\bin\x86\Debug\net8.0-windows\OOP FINAL PROJECT.runtimeconfig.json
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\bin\x86\Debug\net8.0-windows\OOP FINAL PROJECT.dll
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\bin\x86\Debug\net8.0-windows\OOP FINAL PROJECT.pdb
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\bin\x86\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\bin\x86\Debug\net8.0-windows\System.Data.OleDb.dll
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\bin\x86\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\bin\x86\Debug\net8.0-windows\System.Diagnostics.PerformanceCounter.dll
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\bin\x86\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\bin\x86\Debug\net8.0-windows\System.Threading.AccessControl.dll
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\bin\x86\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.OleDb.dll
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\bin\x86\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\bin\x86\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\bin\x86\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\bin\x86\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Threading.AccessControl.dll
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.csproj.AssemblyReference.cache
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.AnalyticsForm.resources
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.CashierForm.resources
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.CookForm.resources
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.CustomerForm.resources
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.EditOrderForm.resources
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.EditUserForm.resources
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.HomeForm.resources
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.KDSForm.resources
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.LoginForm.resources
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.ManagerForm.resources
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.PINPromptForm.resources
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.ReceiptForm.resources
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.RegisterForm.resources
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.csproj.GenerateResource.cache
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.GeneratedMSBuildEditorConfig.editorconfig
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.AssemblyInfoInputs.cache
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.AssemblyInfo.cs
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.csproj.CoreCompileInputs.cache
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP FINA.A23E6856.Up2Date
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.dll
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\refint\OOP FINAL PROJECT.dll
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.pdb
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP FINAL PROJECT.genruntimeconfig.cache
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\ref\OOP FINAL PROJECT.dll
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.GCashPaymentForm.resources
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.InventoryActionDialog.resources
+E:\users\johnjoseph\documents\OOP FINAL PROJECT INCREMENT 2\dodong-johnjohn-main\obj\x86\Debug\net8.0-windows\OOP_FINAL_PROJECT.InventoryForm.resources
